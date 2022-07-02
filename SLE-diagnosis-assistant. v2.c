@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include<string.h>
 #include<ctype.h>
-#include <limits.h>
+#include<limits.h>
 int main(){
     int ANA=INT_MAX,b=0,c=0,ans=0,flag=0,SLE=0,point=0,t=0,q=0,cscore,imscore,bigdomain,bigillness,domainflag=0,bigpoint=0,domainnum=0;
     float percent;
