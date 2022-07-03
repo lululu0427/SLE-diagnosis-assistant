@@ -27,6 +27,7 @@ int main(){
         }
         else if(!(ANA>0)){
             printf("You should input a \"positive\" number.\n");
+            ANA=INT_MAX
         }
     } while ( !(ANA>0) || ANA==INT_MAX );
     
