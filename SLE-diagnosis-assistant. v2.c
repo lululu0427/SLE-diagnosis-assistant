@@ -63,7 +63,7 @@ int main(){
                         }
                         break;
                     default:
-                        printf("input \" Y \" or \" N \" only,try again.\n");
+                        printf("input \" Y \" , \" N \" or \"B\" only,try again.\n");
                         b = b - 1;
                         break;
                 }
@@ -98,7 +98,7 @@ int main(){
                         }
                         break;
                     default:
-                        printf("input \" Y \" or \" N \" only,try again.\n");
+                        printf("input \" Y \" , \" N \" or \"B\" only,try again.\n");
                         c = c - 1;
                         break;
                 }
