@@ -1,8 +1,14 @@
 # SLE-diagnosis-assistant
+### 7/18 版本3:<br>
+1.新增F鍵，輸入F即可跳至下一題，在clinical domain 以及Immunology domain輸入完後若有未輸入Y或N的題目，會分別顯示出missing value並請使用者再度確認答案<br>
+2.移除main cause<br>
+3.將防呆再次優化(上個版本反覆輸入B或F在一些條件下會出現bug)<br>
+4.新增SLEDAI，在判定為SLE後會有額外關於SLEDAI的問題<br>
+
 ### 7/2 版本2:<br>
 1.主架構大改並將weight、domain及症狀都存入陣列，方便維護且code較為精簡(行數不到版本一的一半)<br>
 2.強化防呆裝置，entry criterion 輸入負數或是文字時會給予提醒並要求重新輸入<br>
-3.除了Y跟N以外，新增B選項，輸入B即可回到上一題，可持續輸入直到第一題，先前的版本若是Y要改成N要從頭重新輸入<br>
+3.除了Y跟N以外，新增B键，輸入B即可回到上一題，可持續輸入直到第一題，先前的版本若是Y要改成N要從頭重新輸入<br>
 4.因SLE classification 至少需要 1 clinical criterion，設立flag當沒有clinical criterion會提醒使用者<br>
 5.若是判定為SLE，會告訴使用者主因以及該主因weight佔total score的比例<br>
 
