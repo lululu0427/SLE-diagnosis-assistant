@@ -1,4 +1,8 @@
 # SLE-diagnosis-assistant
+### 8/8 版本4:<br>
+1.詢問病人是否已診斷為SLE，是的話將跳至SLEDAI的問題，最後會印出病患activity程度<br>
+2.在Clinical以及Immunology兩個domain回答完時，會分別顯示每個問題的輸入結果，此時可確認是否有誤可回頭更改<br>
+3.全部輸入完最後會再問是否要confirm以及修改，是的話會一題一題print題目跟先前答案<br>
 ### 7/18 版本3:<br>
 1.新增F鍵，輸入F即可跳至下一題，在clinical domain 以及Immunology domain輸入完後若有未輸入Y或N的題目，會分別顯示出missing value並請使用者再度確認答案<br>
 2.移除main cause<br>
